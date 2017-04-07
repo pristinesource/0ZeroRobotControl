@@ -1,0 +1,77 @@
+Title,
+Revision,
+Date,
+Generated,3/8/2017 5:09:55 PM
+Company,
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,155
+Total Unique Parts,56
+
+
+
+Ref,Qty,Value,Footprint,
+C2 C3 ,2,100uF,Capacitors_THT:CP_Radial_D8.0mm_P3.50mm
+C4 C5 C6 C9 C8 C7 ,6,.1uF,Capacitors_SMD:C_0603
+C10 C11 C12 C13 ,4,10uF,Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow
+C14 C15 ,2,100 uF,Capacitors_THT:CP_Radial_D8.0mm_P3.50mm
+C1 ,1,680 uF,Capacitors_THT:CP_Radial_D12.5mm_P5.00mm
+C37 C39 C41 C43 C45 C47 C17 C18 C19 C28 C29 C30 ,12,220 nF,Capacitors_SMD:C_0402
+C25 C21 C26 C22 C27 C23 C34 C31 C35 C32 C36 C33 ,12,10 nF,Capacitors_SMD:C_0402
+C16 C24 ,2,27 pF,Capacitors_SMD:C_0201
+C20 ,1,0.1 uF,Capacitors_SMD:C_0603
+D2 ,1,LED2,LEDs:LED_0402
+D1 ,1,LED1,LEDs:LED_0402
+D3 ,1,LED3,LEDs:LED_0402
+D8 ,1,LED5,LEDs:LED_0402
+D7 ,1,LED4,LEDs:LED_0402
+D9 ,1,LED6,LEDs:LED_0402
+D4 D5 D6 D10 D11 D12 D21 D24 ,8,SB340,Diodes_THT:D_T-1_P2.54mm_Vertical_AnodeUp
+D20 D22 D23 D25 D26 D27 ,6,BAV99,TO_SOT_Packages_SMD:SOT-23
+D28 ,1,3.3V-3W,Diodes_THT:D_T-1_P2.54mm_Vertical_AnodeUp
+IC1 IC2 IC3 ,3,TC4427A,SMD_Packages:SOIC-8-N
+IC5 IC6 IC7 IC8 IC9 IC10 ,6,L6470,Housings_SSOP:HTSSOP-28_4.4x9.7mm_Pitch0.65mm_ThermalPad
+IC4 ,1,CY25811,SMD_Packages:SOIC-8-N
+J1 ,1,CONN_02X08,Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm
+J2 ,1,CONN_02X03,Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm
+P1 ,1,RaspPi 40pin Conn,Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm
+P8 P9 P10 ,3,5452027,Connectors_Phoenix:PhoenixContact_MC-G_02x3.81mm_Angled
+P7 P6 P5 ,3,XT30PW-F,PiPrinter:XT30PW-F2
+P2 P3 P4 ,3,XT60PW-M,PiPrinter:XT60PW
+P11 ,1,Thermistor_Inputs,Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm
+P18 ,1,SW1,Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight
+P19 ,1,SW2,Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight
+P20 ,1,SW3,Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight
+P21 ,1,SW4,Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight
+P22 ,1,SW5,Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight
+P23 ,1,SW6,Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight
+P25 P26 ,2,CONN_01X01,Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm
+P12 ,1,MOTOR-1,Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight
+P13 ,1,MOTOR-2,Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight
+P14 ,1,MOTOR-3,Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight
+P15 ,1,MOTOR-4,Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight
+P16 ,1,MOTOR-5,Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight
+P17 ,1,MOTOR-6,Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight
+Q2 Q1 Q3 ,3,AOT240L,TO_SOT_Packages_THT:TO-220_Neutral123_Vertical_LargePads
+Q5 Q4 Q6 ,3,AOT2618L,TO_SOT_Packages_THT:TO-220_Neutral123_Vertical_LargePads
+R2 R1 R3 R8 R7 R9 ,6,8.2K,Resistors_SMD:R_1206
+R5 R4 R6 R11 R10 R12 ,6,10K,Resistors_SMD:R_1206
+R19 R20 R21 R22 R23 R24 ,6,22R,Resistors_SMD:R_1206
+R25 R26 R27 R28 ,4,4.7K,Resistors_SMD:R_1206
+R13 R14 R15 R32 R33 R34 ,6,100,Resistors_SMD:R_1206
+R29 R16 R30 R17 R31 R18 R38 R35 R39 R36 R40 R37 ,12,39K,Resistors_SMD:R_1206
+R41 ,1,36K,Resistors_SMD:R_1206
+R42 ,1,2.7K,Resistors_SMD:R_1206
+U1 U2 U3 ,3,LM78L12ACZ,TO_SOT_Packages_THT:TO-92_Inline_Wide
+U8 ,1,R-78E5.0-1.0,PiPrinter:R-78E5.0-1.0
+U7 ,1,R-78E3.3-1.0,PiPrinter:R-78E3.3-1.0
+U4 ,1,MCP3204,SMD_Packages:SOIC-14_N
+Y1 ,1,Crystal 32MHz,Crystals:Resonator-2pin_w10.0mm_h5.0mm
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated 3/8/2017 5:09:55 PM

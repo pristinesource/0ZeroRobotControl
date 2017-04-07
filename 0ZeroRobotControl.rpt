@@ -1,0 +1,860 @@
+** Drc report for C:/Users/Anthony Rainer/Dropbox/KiCad Projects/PiPrinter2/PiPrinter.kicad_pcb **
+** Created on  **
+
+** Found 371 DRC errors **
+ErrType(7): Via near track
+    @ (40.970 mm,60.325 mm): Track 0.250 mm, net [/SW1] (68) on layer In2.Cu, length: 2.554 mm
+    @ (43.011 mm,59.700 mm): Via 0.600 mm net [/VBB1] (1) on layers F.Cu/B.Cu
+ErrType(4): Track near pad
+    @ (39.680 mm,91.205 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 0.979 mm
+    @ (39.680 mm,90.555 mm): Pad 17 on F.Cu, Non-copper of IC7
+ErrType(17): Two track ends too close
+    @ (40.659 mm,91.205 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 1.769 mm
+    @ (39.680 mm,90.555 mm): Track 0.500 mm, net [/3.3VR] (34) on layer F.Cu, length: 1.511 mm
+ErrType(4): Track near pad
+    @ (66.350 mm,91.205 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 1.106 mm
+    @ (66.350 mm,90.555 mm): Pad 17 on F.Cu, Non-copper of IC8
+ErrType(17): Two track ends too close
+    @ (67.456 mm,91.205 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 1.230 mm
+    @ (66.350 mm,90.555 mm): Track 0.400 mm, net [/3.3VR] (34) on layer F.Cu, length: 1.909 mm
+ErrType(4): Track near pad
+    @ (33.980 mm,90.555 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 2.353 mm
+    @ (33.980 mm,91.205 mm): Pad 13 on F.Cu, Non-copper of IC7
+ErrType(4): Track near pad
+    @ (66.350 mm,103.755 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 1.853 mm
+    @ (66.350 mm,104.405 mm): Pad 25 on F.Cu, Non-copper of IC10
+ErrType(4): Track near pad
+    @ (60.650 mm,65.005 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 3.257 mm
+    @ (60.650 mm,64.355 mm): Pad 1 on F.Cu, Non-copper of IC6
+ErrType(4): Track near pad
+    @ (66.350 mm,65.655 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 1.845 mm
+    @ (66.350 mm,66.305 mm): Pad 25 on F.Cu, Non-copper of IC6
+ErrType(4): Track near pad
+    @ (66.350 mm,72.155 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 1.957 mm
+    @ (66.350 mm,71.505 mm): Pad 17 on F.Cu, Non-copper of IC6
+ErrType(4): Track near pad
+    @ (60.650 mm,84.055 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 3.257 mm
+    @ (60.650 mm,83.405 mm): Pad 1 on F.Cu, Non-copper of IC8
+ErrType(4): Track near pad
+    @ (60.650 mm,90.555 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 2.971 mm
+    @ (60.650 mm,91.205 mm): Pad 13 on F.Cu, Non-copper of IC8
+ErrType(4): Track near pad
+    @ (66.350 mm,84.705 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 1.853 mm
+    @ (66.350 mm,85.355 mm): Pad 25 on F.Cu, Non-copper of IC8
+ErrType(4): Track near pad
+    @ (60.650 mm,103.105 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 3.511 mm
+    @ (60.650 mm,102.455 mm): Pad 1 on F.Cu, Non-copper of IC10
+ErrType(17): Two track ends too close
+    @ (67.583 mm,110.255 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 1.051 mm
+    @ (66.350 mm,109.605 mm): Track 0.400 mm, net [/3.3VR] (34) on layer F.Cu, length: 1.730 mm
+ErrType(4): Track near pad
+    @ (66.350 mm,110.255 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 1.233 mm
+    @ (66.350 mm,109.605 mm): Pad 17 on F.Cu, Non-copper of IC10
+ErrType(4): Track near pad
+    @ (33.980 mm,103.105 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 2.465 mm
+    @ (33.980 mm,102.455 mm): Pad 1 on F.Cu, Non-copper of IC9
+ErrType(4): Track near pad
+    @ (33.980 mm,109.605 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 2.353 mm
+    @ (33.980 mm,110.255 mm): Pad 13 on F.Cu, Non-copper of IC9
+ErrType(17): Two track ends too close
+    @ (41.167 mm,110.255 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 1.051 mm
+    @ (39.680 mm,109.605 mm): Track 0.400 mm, net [/3.3VR] (34) on layer F.Cu, length: 2.604 mm
+ErrType(4): Track near pad
+    @ (39.680 mm,110.255 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 1.487 mm
+    @ (39.680 mm,109.605 mm): Pad 17 on F.Cu, Non-copper of IC9
+ErrType(4): Track near pad
+    @ (39.680 mm,103.755 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 2.107 mm
+    @ (39.680 mm,104.405 mm): Pad 25 on F.Cu, Non-copper of IC9
+ErrType(4): Track near pad
+    @ (39.680 mm,84.705 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 2.107 mm
+    @ (39.680 mm,85.355 mm): Pad 25 on F.Cu, Non-copper of IC7
+ErrType(4): Track near pad
+    @ (33.980 mm,84.055 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 2.249 mm
+    @ (33.980 mm,83.405 mm): Pad 1 on F.Cu, Non-copper of IC7
+ErrType(4): Track near pad
+    @ (33.980 mm,71.505 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 2.353 mm
+    @ (33.980 mm,72.155 mm): Pad 13 on F.Cu, Non-copper of IC5
+ErrType(4): Track near pad
+    @ (33.980 mm,65.005 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 2.465 mm
+    @ (33.980 mm,64.355 mm): Pad 1 on F.Cu, Non-copper of IC5
+ErrType(4): Track near pad
+    @ (39.680 mm,72.155 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 2.211 mm
+    @ (39.680 mm,71.505 mm): Pad 17 on F.Cu, Non-copper of IC5
+ErrType(4): Track near pad
+    @ (39.680 mm,65.655 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 2.107 mm
+    @ (39.680 mm,66.305 mm): Pad 25 on F.Cu, Non-copper of IC5
+ErrType(4): Track near pad
+    @ (60.650 mm,71.505 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 2.861 mm
+    @ (60.650 mm,72.155 mm): Pad 13 on F.Cu, Non-copper of IC6
+ErrType(4): Track near pad
+    @ (60.650 mm,109.605 mm): Track 0.500 mm, net [/VBB1] (1) on layer F.Cu, length: 2.615 mm
+    @ (60.650 mm,110.255 mm): Pad 13 on F.Cu, Non-copper of IC10
+ErrType(4): Track near pad
+    @ (98.243 mm,81.408 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 3.101 mm
+    @ (99.568 mm,80.772 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of D4
+ErrType(4): Track near pad
+    @ (56.650 mm,48.088 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 16.174 mm
+    @ (52.500 mm,58.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM04
+ErrType(4): Track near pad
+    @ (83.661 mm,76.041 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 4.804 mm
+    @ (84.328 mm,77.216 mm): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of J1
+ErrType(4): Track near pad
+    @ (93.821 mm,76.041 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 10.160 mm
+    @ (86.868 mm,77.216 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of J1
+ErrType(4): Track near pad
+    @ (74.230 mm,111.485 mm): Track 0.250 mm, net [GND] (2) on layer F.Cu, length: 2.461 mm
+    @ (75.500 mm,116.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM02
+ErrType(4): Track near pad
+    @ (75.970 mm,113.225 mm): Track 0.250 mm, net [GND] (2) on layer F.Cu, length: 8.091 mm
+    @ (75.500 mm,116.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM02
+ErrType(7): Via near track
+    @ (52.253 mm,80.751 mm): Track 0.250 mm, net [/Pi_GPIO26] (55) on layer In1.Cu, length: 5.733 mm
+    @ (46.736 mm,80.126 mm): Via 0.600 mm net [GND] (2) on layers F.Cu/B.Cu
+ErrType(18): Two track ends too close
+    @ (36.405 mm,72.805 mm): Track 3.000 mm, net [GND] (2) on layer In2.Cu, length: 0.850 mm
+    @ (38.059 mm,75.537 mm): Track 1.500 mm, net [/Steppers/M1-4] (96) on layer In2.Cu, length: 2.217 mm
+ErrType(18): Two track ends too close
+    @ (63.075 mm,64.355 mm): Track 3.000 mm, net [GND] (2) on layer In1.Cu, length: 0.850 mm
+    @ (64.728 mm,61.623 mm): Track 1.500 mm, net [/Steppers/M2-2] (105) on layer In1.Cu, length: 2.034 mm
+ErrType(17): Two track ends too close
+    @ (63.925 mm,64.355 mm): Track 3.000 mm, net [GND] (2) on layer In1.Cu, length: 1.056 mm
+    @ (64.728 mm,61.623 mm): Track 1.500 mm, net [/Steppers/M2-2] (105) on layer In1.Cu, length: 2.034 mm
+ErrType(4): Track near pad
+    @ (66.548 mm,37.338 mm): Track 2.000 mm, net [GND] (2) on layer F.Cu, length: 2.286 mm
+    @ (65.604 mm,40.010 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of Q2
+ErrType(4): Track near pad
+    @ (67.564 mm,37.338 mm): Track 2.000 mm, net [GND] (2) on layer F.Cu, length: 1.016 mm
+    @ (65.604 mm,40.010 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of Q2
+ErrType(5): Track near via
+    @ (63.736 mm,102.266 mm): Track 3.000 mm, net [GND] (2) on layer B.Cu, length: 25.685 mm
+    @ (65.786 mm,93.218 mm): Via 0.600 mm net [/Steppers/M4-4] (117) on layers F.Cu/B.Cu
+ErrType(5): Track near via
+    @ (63.736 mm,76.581 mm): Track 3.000 mm, net [GND] (2) on layer B.Cu, length: 25.685 mm
+    @ (65.786 mm,93.218 mm): Via 0.600 mm net [/Steppers/M4-4] (117) on layers F.Cu/B.Cu
+ErrType(5): Track near via
+    @ (63.736 mm,68.094 mm): Track 3.000 mm, net [GND] (2) on layer B.Cu, length: 8.487 mm
+    @ (65.786 mm,74.168 mm): Via 0.600 mm net [/Steppers/M2-4] (103) on layers F.Cu/B.Cu
+ErrType(4): Track near pad
+    @ (103.748 mm,42.672 mm): Track 0.250 mm, net [GND] (2) on layer F.Cu, length: 10.777 mm
+    @ (100.198 mm,40.712 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of Q3
+ErrType(17): Two track ends too close
+    @ (37.255 mm,72.805 mm): Track 3.000 mm, net [GND] (2) on layer In2.Cu, length: 1.056 mm
+    @ (38.059 mm,75.537 mm): Track 1.500 mm, net [/Steppers/M1-4] (96) on layer In2.Cu, length: 2.217 mm
+ErrType(5): Track near via
+    @ (88.900 mm,54.520 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 8.800 mm
+    @ (89.650 mm,49.276 mm): Via 0.750 mm net [Net-(C6-Pad1)] (7) on layers F.Cu/B.Cu
+ErrType(4): Track near pad
+    @ (98.193 mm,69.748 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 3.175 mm
+    @ (99.568 mm,69.088 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of D5
+ErrType(4): Track near pad
+    @ (113.309 mm,71.329 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 13.535 mm
+    @ (104.648 mm,70.104 mm): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of Q5
+ErrType(7): Via near track
+    @ (111.264 mm,98.998 mm): Track 0.250 mm, net [/TH3] (11) on layer B.Cu, length: 3.206 mm
+    @ (111.889 mm,96.520 mm): Via 0.600 mm net [/TH0] (8) on layers F.Cu/B.Cu
+ErrType(7): Via near track
+    @ (111.264 mm,95.792 mm): Track 0.250 mm, net [/TH3] (11) on layer B.Cu, length: 9.521 mm
+    @ (111.214 mm,94.958 mm): Via 0.600 mm net [/TH1] (9) on layers F.Cu/B.Cu
+ErrType(4): Track near pad
+    @ (109.728 mm,79.439 mm): Track 1.750 mm, net [Net-(D4-Pad2)] (18) on layer F.Cu, length: 0.881 mm
+    @ (109.728 mm,80.814 mm): Pad 2 on F.Cu, Non-copper of D7
+ErrType(4): Track near pad
+    @ (109.728 mm,75.952 mm): Track 1.750 mm, net [Net-(D4-Pad2)] (18) on layer F.Cu, length: 3.487 mm
+    @ (109.728 mm,80.814 mm): Pad 2 on F.Cu, Non-copper of D7
+ErrType(4): Track near pad
+    @ (109.728 mm,67.755 mm): Track 1.750 mm, net [Net-(D5-Pad2)] (19) on layer F.Cu, length: 0.270 mm
+    @ (109.728 mm,69.130 mm): Pad 2 on F.Cu, Non-copper of D8
+ErrType(4): Track near pad
+    @ (109.728 mm,66.300 mm): Track 1.750 mm, net [Net-(D5-Pad2)] (19) on layer F.Cu, length: 1.455 mm
+    @ (109.728 mm,69.130 mm): Pad 2 on F.Cu, Non-copper of D8
+ErrType(4): Track near pad
+    @ (112.205 mm,57.721 mm): Track 1.750 mm, net [Net-(D6-Pad2)] (20) on layer F.Cu, length: 3.687 mm
+    @ (109.728 mm,56.346 mm): Pad 2 on F.Cu, Non-copper of D9
+ErrType(4): Track near pad
+    @ (60.650 mm,105.705 mm): Track 0.500 mm, net [/3.3VR] (34) on layer F.Cu, length: 8.219 mm
+    @ (60.650 mm,105.055 mm): Pad 5 on F.Cu, Non-copper of IC10
+ErrType(4): Track near pad
+    @ (33.980 mm,105.705 mm): Track 0.500 mm, net [/3.3VR] (34) on layer F.Cu, length: 2.492 mm
+    @ (33.980 mm,105.055 mm): Pad 5 on F.Cu, Non-copper of IC9
+ErrType(4): Track near pad
+    @ (29.476 mm,107.717 mm): Track 0.500 mm, net [/3.3VR] (34) on layer F.Cu, length: 6.847 mm
+    @ (26.500 mm,116.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM05
+ErrType(4): Track near pad
+    @ (29.476 mm,114.564 mm): Track 0.500 mm, net [/3.3VR] (34) on layer F.Cu, length: 1.584 mm
+    @ (26.500 mm,116.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM05
+ErrType(4): Track near pad
+    @ (39.680 mm,90.555 mm): Track 0.500 mm, net [/3.3VR] (34) on layer F.Cu, length: 1.511 mm
+    @ (39.680 mm,89.905 mm): Pad 18 on F.Cu, Non-copper of IC7
+ErrType(4): Track near pad
+    @ (33.980 mm,67.605 mm): Track 0.500 mm, net [/3.3VR] (34) on layer F.Cu, length: 6.493 mm
+    @ (33.980 mm,66.955 mm): Pad 5 on F.Cu, Non-copper of IC5
+ErrType(4): Track near pad
+    @ (53.867 mm,61.464 mm): Track 0.500 mm, net [/3.3VR] (34) on layer In2.Cu, length: 6.299 mm
+    @ (52.500 mm,58.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM04
+ErrType(4): Track near pad
+    @ (56.255 mm,59.077 mm): Track 0.500 mm, net [/3.3VR] (34) on layer In2.Cu, length: 3.376 mm
+    @ (52.500 mm,58.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM04
+ErrType(4): Track near pad
+    @ (78.714 mm,53.041 mm): Track 0.500 mm, net [/5VR] (35) on layer In1.Cu, length: 12.966 mm
+    @ (75.500 mm,58.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM01
+ErrType(4): Track near pad
+    @ (78.700 mm,56.990 mm): Track 0.500 mm, net [+5V] (37) on layer F.Cu, length: 4.305 mm
+    @ (75.500 mm,58.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM01
+ErrType(4): Track near pad
+    @ (76.350 mm,54.640 mm): Track 0.500 mm, net [+5V] (37) on layer F.Cu, length: 3.323 mm
+    @ (75.500 mm,58.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM01
+ErrType(4): Track near pad
+    @ (75.405 mm,87.260 mm): Track 0.250 mm, net [/Pi_GPIO10] (44) on layer F.Cu, length: 3.219 mm
+    @ (76.770 mm,86.085 mm): Pad 20 on F.Cu, B.Cu, Internal, Non-copper of P1
+ErrType(4): Track near pad
+    @ (75.405 mm,92.340 mm): Track 0.250 mm, net [/Pi_GPIO11] (46) on layer F.Cu, length: 3.219 mm
+    @ (76.770 mm,91.165 mm): Pad 24 on F.Cu, B.Cu, Internal, Non-copper of P1
+ErrType(4): Track near pad
+    @ (75.405 mm,99.960 mm): Track 0.250 mm, net [/Pi_GPIO5] (49) on layer F.Cu, length: 3.219 mm
+    @ (76.770 mm,98.785 mm): Pad 30 on F.Cu, B.Cu, Internal, Non-copper of P1
+ErrType(4): Track near pad
+    @ (75.405 mm,105.040 mm): Track 0.250 mm, net [/Pi_GPIO13] (52) on layer F.Cu, length: 3.219 mm
+    @ (76.770 mm,103.865 mm): Pad 34 on F.Cu, B.Cu, Internal, Non-copper of P1
+ErrType(4): Track near pad
+    @ (76.908 mm,113.009 mm): Track 0.250 mm, net [/Pi_GPIO20] (56) on layer In2.Cu, length: 2.973 mm
+    @ (75.500 mm,116.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM02
+ErrType(5): Track near via
+    @ (48.531 mm,98.696 mm): Track 0.250 mm, net [/Pi_GPIO21] (57) on layer In1.Cu, length: 6.851 mm
+    @ (44.775 mm,94.057 mm): Via 0.600 mm net [Net-(IC7-Pad24)] (111) on layers F.Cu/B.Cu
+ErrType(4): Track near pad
+    @ (51.261 mm,119.291 mm): Track 0.250 mm, net [/Pi_GPIO21] (57) on layer In2.Cu, length: 5.657 mm
+    @ (52.500 mm,116.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM03
+ErrType(4): Track near pad
+    @ (61.193 mm,119.291 mm): Track 0.250 mm, net [/Pi_GPIO21] (57) on layer In2.Cu, length: 9.932 mm
+    @ (52.500 mm,116.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM03
+ErrType(4): Track near pad
+    @ (50.710 mm,48.054 mm): Track 0.500 mm, net [/MOSFET_DRIVE_1] (58) on layer F.Cu, length: 4.088 mm
+    @ (51.816 mm,49.704 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of C1
+ErrType(4): Track near pad
+    @ (89.632 mm,78.550 mm): Track 0.500 mm, net [/MOSFET_DRIVE_2] (61) on layer F.Cu, length: 1.930 mm
+    @ (90.932 mm,79.830 mm): Pad 1 on F.Cu, Non-copper of R10
+ErrType(4): Track near pad
+    @ (100.170 mm,83.508 mm): Track 0.500 mm, net [/MOSFET_DRIVE_2] (61) on layer F.Cu, length: 7.110 mm
+    @ (94.996 mm,82.296 mm): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(4): Track near pad
+    @ (55.525 mm,115.309 mm): Track 0.250 mm, net [/SW1] (68) on layer B.Cu, length: 2.994 mm
+    @ (52.500 mm,116.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM03
+ErrType(4): Track near pad
+    @ (59.510 mm,119.294 mm): Track 0.250 mm, net [/SW1] (68) on layer B.Cu, length: 5.635 mm
+    @ (52.500 mm,116.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM03
+ErrType(4): Track near pad
+    @ (77.501 mm,119.294 mm): Track 0.250 mm, net [/SW1] (68) on layer B.Cu, length: 17.991 mm
+    @ (75.500 mm,116.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM02
+ErrType(4): Track near pad
+    @ (74.477 mm,61.588 mm): Via 0.600 mm net [/SW2] (69) on layers F.Cu/B.Cu
+    @ (75.500 mm,58.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM01
+ErrType(4): Track near pad
+    @ (74.477 mm,61.588 mm): Track 0.250 mm, net [/SW2] (69) on layer F.Cu, length: 4.480 mm
+    @ (75.500 mm,58.250 mm): Pad on F.Cu, B.Cu, Internal, Non-copper of PiM01
+ErrType(28): Too small via size
+    @ (33.909 mm,63.373 mm): Via 0.250 mm net [/Steppers/M1-1] (92) on layers F.Cu/B.Cu
+ErrType(18): Two track ends too close
+    @ (28.445 mm,66.040 mm): Track 1.500 mm, net [/Steppers/M1-1] (92) on layer In2.Cu, length: 3.772 mm
+    @ (30.387 mm,61.623 mm): Track 1.500 mm, net [/Steppers/M1-2] (98) on layer In2.Cu, length: 7.791 mm
+ErrType(18): Two track ends too close
+    @ (28.445 mm,66.040 mm): Track 1.500 mm, net [/Steppers/M1-1] (92) on layer In1.Cu, length: 3.772 mm
+    @ (30.387 mm,61.623 mm): Track 1.500 mm, net [/Steppers/M1-2] (98) on layer In1.Cu, length: 7.791 mm
+ErrType(27): Too small track width
+    @ (33.528 mm,63.754 mm): Track 0.100 mm, net [/Steppers/M1-1] (92) on layer F.Cu, length: 0.539 mm
+ErrType(28): Too small via size
+    @ (33.909 mm,73.787 mm): Via 0.250 mm net [/Steppers/M1-3] (95) on layers F.Cu/B.Cu
+ErrType(18): Two track ends too close
+    @ (26.667 mm,68.580 mm): Track 1.500 mm, net [/Steppers/M1-3] (95) on layer In2.Cu, length: 7.364 mm
+    @ (31.149 mm,75.537 mm): Track 1.500 mm, net [/Steppers/M1-4] (96) on layer In2.Cu, length: 6.909 mm
+ErrType(18): Two track ends too close
+    @ (26.667 mm,68.580 mm): Track 1.500 mm, net [/Steppers/M1-3] (95) on layer In1.Cu, length: 7.364 mm
+    @ (31.149 mm,75.537 mm): Track 1.500 mm, net [/Steppers/M1-4] (96) on layer In1.Cu, length: 7.276 mm
+ErrType(27): Too small track width
+    @ (33.528 mm,74.168 mm): Track 0.100 mm, net [/Steppers/M1-3] (95) on layer F.Cu, length: 0.539 mm
+ErrType(28): Too small via size
+    @ (39.751 mm,73.787 mm): Via 0.250 mm net [/Steppers/M1-4] (96) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (39.370 mm,74.168 mm): Track 0.100 mm, net [/Steppers/M1-4] (96) on layer F.Cu, length: 0.539 mm
+ErrType(28): Too small via size
+    @ (39.751 mm,63.373 mm): Via 0.250 mm net [/Steppers/M1-2] (98) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (39.370 mm,63.754 mm): Track 0.100 mm, net [/Steppers/M1-2] (98) on layer F.Cu, length: 0.539 mm
+ErrType(28): Too small via size
+    @ (60.579 mm,63.373 mm): Via 0.250 mm net [/Steppers/M2-1] (99) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (60.198 mm,63.754 mm): Track 0.100 mm, net [/Steppers/M2-1] (99) on layer F.Cu, length: 0.539 mm
+ErrType(17): Two track ends too close
+    @ (60.579 mm,63.373 mm): Track 1.500 mm, net [/Steppers/M2-1] (99) on layer In2.Cu, length: 0.539 mm
+    @ (64.728 mm,61.623 mm): Track 1.500 mm, net [/Steppers/M2-2] (105) on layer In2.Cu, length: 7.479 mm
+ErrType(28): Too small via size
+    @ (60.579 mm,73.787 mm): Via 0.250 mm net [/Steppers/M2-3] (102) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (60.198 mm,74.168 mm): Track 0.100 mm, net [/Steppers/M2-3] (102) on layer F.Cu, length: 0.539 mm
+ErrType(17): Two track ends too close
+    @ (60.579 mm,73.787 mm): Track 1.500 mm, net [/Steppers/M2-3] (102) on layer In1.Cu, length: 0.539 mm
+    @ (64.728 mm,75.537 mm): Track 1.500 mm, net [/Steppers/M2-4] (103) on layer In1.Cu, length: 7.221 mm
+ErrType(17): Two track ends too close
+    @ (60.579 mm,73.787 mm): Track 1.500 mm, net [/Steppers/M2-3] (102) on layer In2.Cu, length: 0.539 mm
+    @ (64.728 mm,75.537 mm): Track 1.500 mm, net [/Steppers/M2-4] (103) on layer In2.Cu, length: 7.221 mm
+ErrType(28): Too small via size
+    @ (66.167 mm,73.787 mm): Via 0.250 mm net [/Steppers/M2-4] (103) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (65.786 mm,74.168 mm): Track 0.100 mm, net [/Steppers/M2-4] (103) on layer F.Cu, length: 0.539 mm
+ErrType(28): Too small via size
+    @ (66.167 mm,63.373 mm): Via 0.250 mm net [/Steppers/M2-2] (105) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (65.876 mm,63.664 mm): Track 0.100 mm, net [/Steppers/M2-2] (105) on layer F.Cu, length: 0.412 mm
+ErrType(27): Too small track width
+    @ (65.876 mm,63.725 mm): Track 0.100 mm, net [/Steppers/M2-2] (105) on layer F.Cu, length: 0.061 mm
+ErrType(28): Too small via size
+    @ (33.909 mm,82.423 mm): Via 0.250 mm net [/Steppers/M3-1] (106) on layers F.Cu/B.Cu
+ErrType(18): Two track ends too close
+    @ (26.921 mm,86.360 mm): Track 1.500 mm, net [/Steppers/M3-1] (106) on layer In2.Cu, length: 5.568 mm
+    @ (30.133 mm,80.673 mm): Track 1.500 mm, net [/Steppers/M3-2] (112) on layer In2.Cu, length: 8.045 mm
+ErrType(18): Two track ends too close
+    @ (26.921 mm,86.360 mm): Track 1.500 mm, net [/Steppers/M3-1] (106) on layer In1.Cu, length: 5.568 mm
+    @ (30.133 mm,80.673 mm): Track 1.500 mm, net [/Steppers/M3-2] (112) on layer In1.Cu, length: 8.045 mm
+ErrType(27): Too small track width
+    @ (33.528 mm,82.804 mm): Track 0.100 mm, net [/Steppers/M3-1] (106) on layer F.Cu, length: 0.539 mm
+ErrType(28): Too small via size
+    @ (33.909 mm,92.837 mm): Via 0.250 mm net [/Steppers/M3-3] (109) on layers F.Cu/B.Cu
+ErrType(18): Two track ends too close
+    @ (27.940 mm,88.900 mm): Track 1.500 mm, net [/Steppers/M3-3] (109) on layer In2.Cu, length: 5.568 mm
+    @ (31.152 mm,94.587 mm): Track 1.500 mm, net [/Steppers/M3-4] (110) on layer In2.Cu, length: 7.357 mm
+ErrType(18): Two track ends too close
+    @ (27.937 mm,88.900 mm): Track 1.500 mm, net [/Steppers/M3-3] (109) on layer In1.Cu, length: 5.568 mm
+    @ (31.149 mm,94.587 mm): Track 1.500 mm, net [/Steppers/M3-4] (110) on layer In1.Cu, length: 7.276 mm
+ErrType(27): Too small track width
+    @ (33.528 mm,93.218 mm): Track 0.100 mm, net [/Steppers/M3-3] (109) on layer F.Cu, length: 0.539 mm
+ErrType(28): Too small via size
+    @ (39.751 mm,92.837 mm): Via 0.250 mm net [/Steppers/M3-4] (110) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (39.370 mm,93.218 mm): Track 0.100 mm, net [/Steppers/M3-4] (110) on layer F.Cu, length: 0.539 mm
+ErrType(28): Too small via size
+    @ (39.751 mm,82.423 mm): Via 0.250 mm net [/Steppers/M3-2] (112) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (39.370 mm,82.804 mm): Track 0.100 mm, net [/Steppers/M3-2] (112) on layer F.Cu, length: 0.539 mm
+ErrType(28): Too small via size
+    @ (60.579 mm,82.423 mm): Via 0.250 mm net [/Steppers/M4-1] (113) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (60.198 mm,82.804 mm): Track 0.100 mm, net [/Steppers/M4-1] (113) on layer F.Cu, length: 0.539 mm
+ErrType(17): Two track ends too close
+    @ (60.579 mm,82.423 mm): Track 1.500 mm, net [/Steppers/M4-1] (113) on layer In1.Cu, length: 0.539 mm
+    @ (64.728 mm,80.673 mm): Track 1.500 mm, net [/Steppers/M4-2] (119) on layer In1.Cu, length: 7.981 mm
+ErrType(17): Two track ends too close
+    @ (60.579 mm,82.423 mm): Track 1.500 mm, net [/Steppers/M4-1] (113) on layer In2.Cu, length: 0.539 mm
+    @ (64.728 mm,80.673 mm): Track 1.500 mm, net [/Steppers/M4-2] (119) on layer In2.Cu, length: 7.474 mm
+ErrType(28): Too small via size
+    @ (60.579 mm,92.837 mm): Via 0.250 mm net [/Steppers/M4-3] (116) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (60.198 mm,93.218 mm): Track 0.100 mm, net [/Steppers/M4-3] (116) on layer F.Cu, length: 0.539 mm
+ErrType(17): Two track ends too close
+    @ (60.579 mm,92.837 mm): Track 1.500 mm, net [/Steppers/M4-3] (116) on layer In1.Cu, length: 0.539 mm
+    @ (64.728 mm,94.587 mm): Track 1.500 mm, net [/Steppers/M4-4] (117) on layer In1.Cu, length: 7.981 mm
+ErrType(17): Two track ends too close
+    @ (60.579 mm,92.837 mm): Track 1.500 mm, net [/Steppers/M4-3] (116) on layer In2.Cu, length: 0.539 mm
+    @ (64.728 mm,94.587 mm): Track 1.500 mm, net [/Steppers/M4-4] (117) on layer In2.Cu, length: 7.981 mm
+ErrType(28): Too small via size
+    @ (66.167 mm,92.837 mm): Via 0.250 mm net [/Steppers/M4-4] (117) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (65.786 mm,93.218 mm): Track 0.100 mm, net [/Steppers/M4-4] (117) on layer F.Cu, length: 0.539 mm
+ErrType(28): Too small via size
+    @ (66.167 mm,82.423 mm): Via 0.250 mm net [/Steppers/M4-2] (119) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (65.876 mm,82.714 mm): Track 0.100 mm, net [/Steppers/M4-2] (119) on layer F.Cu, length: 0.412 mm
+ErrType(27): Too small track width
+    @ (65.876 mm,82.775 mm): Track 0.100 mm, net [/Steppers/M4-2] (119) on layer F.Cu, length: 0.061 mm
+ErrType(28): Too small via size
+    @ (33.909 mm,101.473 mm): Via 0.250 mm net [/Steppers/M5-1] (120) on layers F.Cu/B.Cu
+ErrType(18): Two track ends too close
+    @ (28.200 mm,104.140 mm): Track 1.500 mm, net [/Steppers/M5-1] (120) on layer In2.Cu, length: 3.772 mm
+    @ (30.077 mm,99.723 mm): Track 1.500 mm, net [/Steppers/M5-2] (126) on layer In2.Cu, length: 8.101 mm
+ErrType(18): Two track ends too close
+    @ (28.445 mm,104.140 mm): Track 1.500 mm, net [/Steppers/M5-1] (120) on layer In1.Cu, length: 3.772 mm
+    @ (30.387 mm,99.723 mm): Track 1.500 mm, net [/Steppers/M5-2] (126) on layer In1.Cu, length: 7.791 mm
+ErrType(27): Too small track width
+    @ (33.528 mm,101.854 mm): Track 0.100 mm, net [/Steppers/M5-1] (120) on layer F.Cu, length: 0.539 mm
+ErrType(28): Too small via size
+    @ (33.909 mm,111.887 mm): Via 0.250 mm net [/Steppers/M5-3] (123) on layers F.Cu/B.Cu
+ErrType(18): Two track ends too close
+    @ (26.667 mm,106.680 mm): Track 1.500 mm, net [/Steppers/M5-3] (123) on layer In1.Cu, length: 7.364 mm
+    @ (31.149 mm,113.637 mm): Track 1.500 mm, net [/Steppers/M5-4] (124) on layer In1.Cu, length: 6.909 mm
+ErrType(27): Too small track width
+    @ (33.528 mm,112.268 mm): Track 0.100 mm, net [/Steppers/M5-3] (123) on layer F.Cu, length: 0.539 mm
+ErrType(28): Too small via size
+    @ (39.751 mm,111.887 mm): Via 0.250 mm net [/Steppers/M5-4] (124) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (39.370 mm,112.268 mm): Track 0.100 mm, net [/Steppers/M5-4] (124) on layer F.Cu, length: 0.539 mm
+ErrType(28): Too small via size
+    @ (39.751 mm,101.473 mm): Via 0.250 mm net [/Steppers/M5-2] (126) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (39.751 mm,101.473 mm): Track 0.100 mm, net [/Steppers/M5-2] (126) on layer F.Cu, length: 0.539 mm
+ErrType(28): Too small via size
+    @ (60.579 mm,101.473 mm): Via 0.250 mm net [/Steppers/M6-1] (127) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (60.198 mm,101.854 mm): Track 0.100 mm, net [/Steppers/M6-1] (127) on layer F.Cu, length: 0.539 mm
+ErrType(17): Two track ends too close
+    @ (60.579 mm,101.473 mm): Track 1.500 mm, net [/Steppers/M6-1] (127) on layer In1.Cu, length: 0.539 mm
+    @ (64.728 mm,99.723 mm): Track 1.500 mm, net [/Steppers/M6-2] (133) on layer In1.Cu, length: 9.252 mm
+ErrType(17): Two track ends too close
+    @ (60.579 mm,101.473 mm): Track 1.500 mm, net [/Steppers/M6-1] (127) on layer In2.Cu, length: 0.539 mm
+    @ (64.728 mm,99.723 mm): Track 1.500 mm, net [/Steppers/M6-2] (133) on layer In2.Cu, length: 9.252 mm
+ErrType(28): Too small via size
+    @ (60.579 mm,111.887 mm): Via 0.250 mm net [/Steppers/M6-3] (130) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (60.198 mm,112.268 mm): Track 0.100 mm, net [/Steppers/M6-3] (130) on layer F.Cu, length: 0.539 mm
+ErrType(17): Two track ends too close
+    @ (60.579 mm,111.887 mm): Track 1.500 mm, net [/Steppers/M6-3] (130) on layer In1.Cu, length: 0.539 mm
+    @ (55.517 mm,113.637 mm): Track 1.500 mm, net [/Steppers/M6-4] (131) on layer In1.Cu, length: 9.211 mm
+ErrType(28): Too small via size
+    @ (66.294 mm,111.887 mm): Via 0.250 mm net [/Steppers/M6-4] (131) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (66.040 mm,112.268 mm): Track 0.100 mm, net [/Steppers/M6-4] (131) on layer F.Cu, length: 0.127 mm
+ErrType(27): Too small track width
+    @ (66.040 mm,112.141 mm): Track 0.100 mm, net [/Steppers/M6-4] (131) on layer F.Cu, length: 0.359 mm
+ErrType(28): Too small via size
+    @ (66.167 mm,101.473 mm): Via 0.250 mm net [/Steppers/M6-2] (133) on layers F.Cu/B.Cu
+ErrType(27): Too small track width
+    @ (65.876 mm,101.764 mm): Track 0.100 mm, net [/Steppers/M6-2] (133) on layer F.Cu, length: 0.412 mm
+ErrType(27): Too small track width
+    @ (65.876 mm,101.825 mm): Track 0.100 mm, net [/Steppers/M6-2] (133) on layer F.Cu, length: 0.061 mm
+ErrType(23): Copper areas intersect or are too close
+    @ (57.404 mm,58.420 mm): Zone Outline  (58B61378) [/VBB1] on B.Cu
+    @ (57.404 mm,58.420 mm): Zone Outline  (00000000) [GND] on B.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (67.564 mm,58.420 mm): Zone Outline  (58B61378) [/VBB1] on B.Cu
+    @ (67.564 mm,58.420 mm): Zone Outline  (00000000) [GND] on B.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (57.404 mm,58.420 mm): Zone Outline  (58B61378) [/VBB1] on B.Cu
+    @ (57.404 mm,58.420 mm): Zone Outline  (00000000) [GND] on B.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (57.404 mm,58.420 mm): Zone Outline  (00000000) [GND] on B.Cu
+    @ (57.404 mm,58.420 mm): Zone Outline  (58B61378) [/VBB1] on B.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (67.564 mm,58.420 mm): Zone Outline  (00000000) [GND] on B.Cu
+    @ (67.564 mm,58.420 mm): Zone Outline  (58B61378) [/VBB1] on B.Cu
+ErrType(23): Copper areas intersect or are too close
+    @ (57.404 mm,58.420 mm): Zone Outline  (00000000) [GND] on B.Cu
+    @ (57.404 mm,58.420 mm): Zone Outline  (58B61378) [/VBB1] on B.Cu
+ErrType(37): Track inside a keepout area
+    @ (99.568 mm,45.212 mm): Track 2.000 mm, net [Net-(D12-Pad2)] (16) on layer In1.Cu, length: 5.080 mm
+ErrType(37): Track inside a keepout area
+    @ (99.568 mm,45.212 mm): Track 2.000 mm, net [Net-(D12-Pad2)] (16) on layer In2.Cu, length: 5.080 mm
+ErrType(37): Track inside a keepout area
+    @ (103.014 mm,78.740 mm): Track 1.750 mm, net [Net-(D4-Pad2)] (18) on layer In2.Cu, length: 2.874 mm
+ErrType(37): Track inside a keepout area
+    @ (104.648 mm,78.740 mm): Track 1.750 mm, net [Net-(D4-Pad2)] (18) on layer In2.Cu, length: 1.634 mm
+ErrType(37): Track inside a keepout area
+    @ (102.506 mm,67.564 mm): Track 1.750 mm, net [Net-(D5-Pad2)] (19) on layer In2.Cu, length: 2.155 mm
+ErrType(37): Track inside a keepout area
+    @ (104.648 mm,67.564 mm): Track 1.750 mm, net [Net-(D5-Pad2)] (19) on layer In2.Cu, length: 2.142 mm
+ErrType(37): Track inside a keepout area
+    @ (103.014 mm,56.388 mm): Track 1.750 mm, net [Net-(D6-Pad2)] (20) on layer In2.Cu, length: 2.874 mm
+ErrType(37): Track inside a keepout area
+    @ (104.648 mm,56.388 mm): Track 1.750 mm, net [Net-(D6-Pad2)] (20) on layer In2.Cu, length: 1.634 mm
+ErrType(37): Track inside a keepout area
+    @ (103.014 mm,78.740 mm): Track 1.750 mm, net [Net-(D4-Pad2)] (18) on layer In1.Cu, length: 1.634 mm
+ErrType(37): Track inside a keepout area
+    @ (100.982 mm,80.772 mm): Track 1.750 mm, net [Net-(D4-Pad2)] (18) on layer In1.Cu, length: 2.874 mm
+ErrType(37): Track inside a keepout area
+    @ (102.506 mm,67.564 mm): Track 1.750 mm, net [Net-(D5-Pad2)] (19) on layer In1.Cu, length: 2.155 mm
+ErrType(37): Track inside a keepout area
+    @ (104.648 mm,67.564 mm): Track 1.750 mm, net [Net-(D5-Pad2)] (19) on layer In1.Cu, length: 2.142 mm
+ErrType(37): Track inside a keepout area
+    @ (103.014 mm,56.388 mm): Track 1.750 mm, net [Net-(D6-Pad2)] (20) on layer In1.Cu, length: 2.874 mm
+ErrType(37): Track inside a keepout area
+    @ (104.648 mm,56.388 mm): Track 1.750 mm, net [Net-(D6-Pad2)] (20) on layer In1.Cu, length: 1.634 mm
+ErrType(37): Track inside a keepout area
+    @ (70.104 mm,39.310 mm): Track 2.000 mm, net [Net-(D11-Pad2)] (14) on layer In1.Cu, length: 3.750 mm
+ErrType(37): Track inside a keepout area
+    @ (62.992 mm,30.803 mm): Track 0.500 mm, net [Net-(IC2-Pad7)] (30) on layer In1.Cu, length: 3.592 mm
+ErrType(37): Track inside a keepout area
+    @ (65.532 mm,28.263 mm): Track 0.500 mm, net [Net-(IC2-Pad7)] (30) on layer In1.Cu, length: 1.339 mm
+ErrType(36): Via inside a keepout area
+    @ (65.532 mm,26.924 mm): Via 0.750 mm net [Net-(IC2-Pad7)] (30) on layers F.Cu/B.Cu
+ErrType(37): Track inside a keepout area
+    @ (70.104 mm,39.310 mm): Track 2.000 mm, net [Net-(D11-Pad2)] (14) on layer In2.Cu, length: 3.750 mm
+ErrType(36): Via inside a keepout area
+    @ (65.532 mm,26.924 mm): Via 0.750 mm net [Net-(IC2-Pad7)] (30) on layers F.Cu/B.Cu
+ErrType(37): Track inside a keepout area
+    @ (79.248 mm,35.560 mm): Track 0.500 mm, net [/MOSFET_DRIVE_3] (59) on layer In2.Cu, length: 6.604 mm
+ErrType(37): Track inside a keepout area
+    @ (36.576 mm,39.810 mm): Track 2.500 mm, net [Net-(D1-Pad1)] (12) on layer In2.Cu, length: 4.250 mm
+ErrType(37): Track inside a keepout area
+    @ (36.576 mm,39.810 mm): Track 2.500 mm, net [Net-(D1-Pad1)] (12) on layer In1.Cu, length: 4.250 mm
+ErrType(37): Track inside a keepout area
+    @ (47.244 mm,35.052 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 3.062 mm
+ErrType(37): Track inside a keepout area
+    @ (47.244 mm,38.114 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 7.884 mm
+ErrType(37): Track inside a keepout area
+    @ (41.670 mm,43.688 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 3.062 mm
+ErrType(37): Track inside a keepout area
+    @ (35.052 mm,53.302 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 2.502 mm
+ErrType(37): Track inside a keepout area
+    @ (29.593 mm,50.163 mm): Track 1.500 mm, net [/VBB1] (1) on layer B.Cu, length: 4.821 mm
+ErrType(37): Track inside a keepout area
+    @ (35.052 mm,50.800 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 1.778 mm
+ErrType(37): Track inside a keepout area
+    @ (34.415 mm,50.163 mm): Track 1.500 mm, net [/VBB1] (1) on layer B.Cu, length: 0.902 mm
+ErrType(37): Track inside a keepout area
+    @ (38.608 mm,43.688 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 3.592 mm
+ErrType(37): Track inside a keepout area
+    @ (36.068 mm,46.228 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 1.437 mm
+ErrType(37): Track inside a keepout area
+    @ (37.592 mm,45.720 mm): Track 1.500 mm, net [/VBB1] (1) on layer B.Cu, length: 1.347 mm
+ErrType(37): Track inside a keepout area
+    @ (36.068 mm,45.897 mm): Track 1.500 mm, net [/VBB1] (1) on layer B.Cu, length: 0.331 mm
+ErrType(37): Track inside a keepout area
+    @ (36.245 mm,45.720 mm): Track 1.500 mm, net [/VBB1] (1) on layer B.Cu, length: 0.250 mm
+ErrType(37): Track inside a keepout area
+    @ (35.052 mm,47.244 mm): Track 1.500 mm, net [/VBB1] (1) on layer B.Cu, length: 0.508 mm
+ErrType(37): Track inside a keepout area
+    @ (34.544 mm,47.244 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 2.156 mm
+ErrType(37): Track inside a keepout area
+    @ (41.910 mm,57.912 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 1.016 mm
+ErrType(37): Track inside a keepout area
+    @ (41.910 mm,58.928 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 6.604 mm
+ErrType(37): Track inside a keepout area
+    @ (41.910 mm,56.896 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 1.016 mm
+ErrType(37): Track inside a keepout area
+    @ (43.180 mm,58.928 mm): Track 0.500 mm, net [/VBB1] (1) on layer B.Cu, length: 1.437 mm
+ErrType(37): Track inside a keepout area
+    @ (42.164 mm,57.912 mm): Track 0.500 mm, net [/VBB1] (1) on layer B.Cu, length: 0.254 mm
+ErrType(37): Track inside a keepout area
+    @ (41.910 mm,55.372 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 1.524 mm
+ErrType(37): Track inside a keepout area
+    @ (42.164 mm,56.896 mm): Track 0.500 mm, net [/VBB1] (1) on layer B.Cu, length: 0.254 mm
+ErrType(37): Track inside a keepout area
+    @ (43.180 mm,57.912 mm): Track 0.500 mm, net [/VBB1] (1) on layer B.Cu, length: 1.437 mm
+ErrType(37): Track inside a keepout area
+    @ (43.180 mm,56.896 mm): Track 0.500 mm, net [/VBB1] (1) on layer B.Cu, length: 1.796 mm
+ErrType(37): Track inside a keepout area
+    @ (41.910 mm,55.626 mm): Track 0.500 mm, net [/VBB1] (1) on layer B.Cu, length: 0.254 mm
+ErrType(37): Track inside a keepout area
+    @ (41.910 mm,52.918 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 2.454 mm
+ErrType(37): Track inside a keepout area
+    @ (43.180 mm,55.880 mm): Track 0.500 mm, net [/VBB1] (1) on layer B.Cu, length: 0.718 mm
+ErrType(37): Track inside a keepout area
+    @ (42.672 mm,55.372 mm): Track 0.500 mm, net [/VBB1] (1) on layer B.Cu, length: 0.762 mm
+ErrType(37): Track inside a keepout area
+    @ (41.698 mm,53.130 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 0.300 mm
+ErrType(37): Track inside a keepout area
+    @ (41.698 mm,54.610 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 1.480 mm
+ErrType(37): Track inside a keepout area
+    @ (51.772 mm,35.052 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 6.899 mm
+ErrType(37): Track inside a keepout area
+    @ (51.816 mm,35.096 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 0.062 mm
+ErrType(37): Track inside a keepout area
+    @ (51.816 mm,44.704 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 9.608 mm
+ErrType(37): Track inside a keepout area
+    @ (113.792 mm,83.820 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 2.155 mm
+ErrType(37): Track inside a keepout area
+    @ (113.792 mm,79.248 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 4.572 mm
+ErrType(37): Track inside a keepout area
+    @ (113.792 mm,79.248 mm): Track 3.000 mm, net [/VBB1] (1) on layer B.Cu, length: 1.778 mm
+ErrType(37): Track inside a keepout area
+    @ (113.792 mm,79.248 mm): Track 3.000 mm, net [/VBB1] (1) on layer B.Cu, length: 1.778 mm
+ErrType(37): Track inside a keepout area
+    @ (42.502 mm,28.500 mm): Track 5.000 mm, net [/VBB1] (1) on layer B.Cu, length: 1.450 mm
+ErrType(37): Track inside a keepout area
+    @ (51.772 mm,35.052 mm): Track 6.000 mm, net [/VBB1] (1) on layer B.Cu, length: 1.900 mm
+ErrType(37): Track inside a keepout area
+    @ (99.568 mm,78.232 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 1.250 mm
+ErrType(37): Track inside a keepout area
+    @ (96.012 mm,78.232 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 1.437 mm
+ErrType(37): Track inside a keepout area
+    @ (98.318 mm,78.232 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 2.306 mm
+ErrType(37): Track inside a keepout area
+    @ (98.243 mm,78.307 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 0.106 mm
+ErrType(37): Track inside a keepout area
+    @ (98.243 mm,81.408 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 3.101 mm
+ErrType(37): Track inside a keepout area
+    @ (101.879 mm,85.044 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 5.142 mm
+ErrType(37): Track inside a keepout area
+    @ (98.318 mm,78.232 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 1.250 mm
+ErrType(37): Track inside a keepout area
+    @ (56.650 mm,39.930 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 8.158 mm
+ErrType(37): Track inside a keepout area
+    @ (56.650 mm,48.088 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 16.174 mm
+ErrType(37): Track inside a keepout area
+    @ (53.266 mm,44.704 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 1.450 mm
+ErrType(37): Track inside a keepout area
+    @ (56.650 mm,48.088 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 4.786 mm
+ErrType(37): Track inside a keepout area
+    @ (60.330 mm,52.710 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 11.308 mm
+ErrType(37): Track inside a keepout area
+    @ (60.330 mm,51.768 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 0.942 mm
+ErrType(37): Track inside a keepout area
+    @ (63.172 mm,54.610 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 4.019 mm
+ErrType(37): Track inside a keepout area
+    @ (80.264 mm,54.610 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 17.092 mm
+ErrType(37): Track inside a keepout area
+    @ (80.264 mm,72.644 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 18.034 mm
+ErrType(37): Track inside a keepout area
+    @ (83.661 mm,76.041 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 4.804 mm
+ErrType(37): Track inside a keepout area
+    @ (93.821 mm,76.041 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 10.160 mm
+ErrType(37): Track inside a keepout area
+    @ (94.996 mm,77.216 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 1.662 mm
+ErrType(37): Track inside a keepout area
+    @ (60.330 mm,51.768 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 5.204 mm
+ErrType(37): Track inside a keepout area
+    @ (51.816 mm,44.704 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 4.826 mm
+ErrType(37): Track inside a keepout area
+    @ (37.592 mm,45.720 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 3.592 mm
+ErrType(37): Track inside a keepout area
+    @ (35.052 mm,48.260 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 1.078 mm
+ErrType(37): Track inside a keepout area
+    @ (51.772 mm,35.052 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 1.901 mm
+ErrType(37): Track inside a keepout area
+    @ (46.736 mm,35.052 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 1.437 mm
+ErrType(37): Track inside a keepout area
+    @ (47.244 mm,35.052 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 0.508 mm
+ErrType(37): Track inside a keepout area
+    @ (51.772 mm,35.052 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 1.900 mm
+ErrType(37): Track inside a keepout area
+    @ (49.872 mm,35.052 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 2.628 mm
+ErrType(37): Track inside a keepout area
+    @ (51.772 mm,35.052 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 1.900 mm
+ErrType(37): Track inside a keepout area
+    @ (46.990 mm,43.228 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 1.476 mm
+ErrType(37): Track inside a keepout area
+    @ (51.772 mm,38.446 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 6.763 mm
+ErrType(37): Track inside a keepout area
+    @ (51.772 mm,36.952 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 1.494 mm
+ErrType(37): Track inside a keepout area
+    @ (51.772 mm,35.052 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 6.899 mm
+ErrType(37): Track inside a keepout area
+    @ (60.330 mm,43.610 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 8.158 mm
+ErrType(37): Track inside a keepout area
+    @ (56.650 mm,39.930 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 5.204 mm
+ErrType(37): Track inside a keepout area
+    @ (46.990 mm,47.838 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 7.184 mm
+ErrType(37): Track inside a keepout area
+    @ (46.990 mm,44.704 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 3.134 mm
+ErrType(37): Track inside a keepout area
+    @ (31.496 mm,56.858 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 5.029 mm
+ErrType(37): Track inside a keepout area
+    @ (31.496 mm,65.024 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 8.166 mm
+ErrType(37): Track inside a keepout area
+    @ (35.052 mm,49.022 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 0.762 mm
+ErrType(37): Track inside a keepout area
+    @ (51.772 mm,35.052 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 1.900 mm
+ErrType(37): Track inside a keepout area
+    @ (49.872 mm,35.052 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 2.628 mm
+ErrType(37): Track inside a keepout area
+    @ (45.220 mm,28.500 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 1.268 mm
+ErrType(37): Track inside a keepout area
+    @ (50.428 mm,33.708 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 7.365 mm
+ErrType(37): Track inside a keepout area
+    @ (43.952 mm,28.500 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 1.450 mm
+ErrType(37): Track inside a keepout area
+    @ (38.608 mm,44.704 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 1.437 mm
+ErrType(37): Track inside a keepout area
+    @ (38.608 mm,43.688 mm): Track 0.250 mm, net [/VBB1] (1) on layer B.Cu, length: 1.016 mm
+ErrType(37): Track inside a keepout area
+    @ (35.052 mm,47.244 mm): Track 2.000 mm, net [/VBB1] (1) on layer B.Cu, length: 1.016 mm
+ErrType(37): Track inside a keepout area
+    @ (81.280 mm,45.212 mm): Track 0.250 mm, net [/VBB2] (3) on layer B.Cu, length: 1.050 mm
+ErrType(37): Track inside a keepout area
+    @ (81.280 mm,44.162 mm): Track 0.250 mm, net [/VBB2] (3) on layer B.Cu, length: 3.522 mm
+ErrType(37): Track inside a keepout area
+    @ (81.280 mm,40.640 mm): Track 0.250 mm, net [/VBB2] (3) on layer B.Cu, length: 1.568 mm
+ErrType(37): Track inside a keepout area
+    @ (81.280 mm,39.072 mm): Track 0.250 mm, net [/VBB2] (3) on layer B.Cu, length: 5.685 mm
+ErrType(37): Track inside a keepout area
+    @ (88.900 mm,45.720 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 0.718 mm
+ErrType(37): Track inside a keepout area
+    @ (89.142 mm,54.762 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 0.342 mm
+ErrType(37): Track inside a keepout area
+    @ (94.996 mm,64.454 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 8.279 mm
+ErrType(37): Track inside a keepout area
+    @ (89.142 mm,58.600 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 3.839 mm
+ErrType(37): Track inside a keepout area
+    @ (88.392 mm,45.212 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 5.962 mm
+ErrType(37): Track inside a keepout area
+    @ (88.900 mm,54.520 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 8.800 mm
+ErrType(37): Track inside a keepout area
+    @ (94.996 mm,65.532 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 1.078 mm
+ErrType(37): Track inside a keepout area
+    @ (81.280 mm,45.212 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 1.150 mm
+ErrType(37): Track inside a keepout area
+    @ (113.792 mm,69.596 mm): Track 3.000 mm, net [/VBB2] (3) on layer B.Cu, length: 1.778 mm
+ErrType(37): Track inside a keepout area
+    @ (113.792 mm,69.596 mm): Track 3.000 mm, net [/VBB2] (3) on layer B.Cu, length: 1.778 mm
+ErrType(37): Track inside a keepout area
+    @ (76.002 mm,28.500 mm): Track 5.000 mm, net [/VBB2] (3) on layer B.Cu, length: 1.450 mm
+ErrType(37): Track inside a keepout area
+    @ (85.300 mm,35.052 mm): Track 6.000 mm, net [/VBB2] (3) on layer B.Cu, length: 1.900 mm
+ErrType(37): Track inside a keepout area
+    @ (99.568 mm,66.548 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 1.350 mm
+ErrType(37): Track inside a keepout area
+    @ (96.012 mm,66.548 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 1.437 mm
+ErrType(37): Track inside a keepout area
+    @ (98.218 mm,66.548 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 2.206 mm
+ErrType(37): Track inside a keepout area
+    @ (98.193 mm,66.573 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 0.035 mm
+ErrType(37): Track inside a keepout area
+    @ (98.193 mm,69.748 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 3.175 mm
+ErrType(37): Track inside a keepout area
+    @ (99.774 mm,71.329 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 2.235 mm
+ErrType(37): Track inside a keepout area
+    @ (113.309 mm,71.329 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 13.535 mm
+ErrType(37): Track inside a keepout area
+    @ (113.792 mm,70.846 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 0.683 mm
+ErrType(37): Track inside a keepout area
+    @ (113.792 mm,69.596 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 1.250 mm
+ErrType(37): Track inside a keepout area
+    @ (98.218 mm,66.548 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 1.350 mm
+ErrType(37): Track inside a keepout area
+    @ (82.430 mm,45.212 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 1.150 mm
+ErrType(37): Track inside a keepout area
+    @ (85.300 mm,42.342 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 5.390 mm
+ErrType(37): Track inside a keepout area
+    @ (82.430 mm,45.212 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 4.059 mm
+ErrType(37): Track inside a keepout area
+    @ (85.300 mm,36.952 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 1.900 mm
+ErrType(37): Track inside a keepout area
+    @ (76.002 mm,28.500 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 1.450 mm
+ErrType(37): Track inside a keepout area
+    @ (82.554 mm,35.052 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 0.846 mm
+ErrType(37): Track inside a keepout area
+    @ (77.027 mm,29.525 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 7.816 mm
+ErrType(37): Track inside a keepout area
+    @ (83.400 mm,35.052 mm): Track 0.350 mm, net [/VBB2] (3) on layer B.Cu, length: 1.900 mm
+ErrType(37): Track inside a keepout area
+    @ (96.520 mm,50.800 mm): Track 0.500 mm, net [/VBB3] (4) on layer B.Cu, length: 1.524 mm
+ErrType(37): Track inside a keepout area
+    @ (97.998 mm,46.522 mm): Track 0.500 mm, net [/VBB3] (4) on layer B.Cu, length: 5.682 mm
+ErrType(37): Track inside a keepout area
+    @ (98.044 mm,50.800 mm): Track 0.500 mm, net [/VBB3] (4) on layer B.Cu, length: 0.031 mm
+ErrType(37): Track inside a keepout area
+    @ (98.044 mm,50.769 mm): Track 0.500 mm, net [/VBB3] (4) on layer B.Cu, length: 0.065 mm
+ErrType(37): Track inside a keepout area
+    @ (97.998 mm,50.723 mm): Track 0.500 mm, net [/VBB3] (4) on layer B.Cu, length: 4.201 mm
+ErrType(37): Track inside a keepout area
+    @ (93.980 mm,42.504 mm): Track 0.500 mm, net [/VBB3] (4) on layer B.Cu, length: 1.300 mm
+ErrType(37): Track inside a keepout area
+    @ (93.980 mm,42.254 mm): Track 0.250 mm, net [/VBB3] (4) on layer B.Cu, length: 1.050 mm
+ErrType(37): Track inside a keepout area
+    @ (93.980 mm,41.204 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 1.150 mm
+ErrType(37): Track inside a keepout area
+    @ (93.980 mm,42.354 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 1.662 mm
+ErrType(37): Track inside a keepout area
+    @ (95.155 mm,43.529 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 4.061 mm
+ErrType(37): Track inside a keepout area
+    @ (95.170 mm,50.800 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 1.350 mm
+ErrType(37): Track inside a keepout area
+    @ (95.155 mm,47.590 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 0.014 mm
+ErrType(37): Track inside a keepout area
+    @ (95.145 mm,47.600 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 3.175 mm
+ErrType(37): Track inside a keepout area
+    @ (95.145 mm,50.775 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 0.035 mm
+ErrType(37): Track inside a keepout area
+    @ (100.500 mm,35.000 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 1.494 mm
+ErrType(37): Track inside a keepout area
+    @ (99.006 mm,35.000 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 4.952 mm
+ErrType(37): Track inside a keepout area
+    @ (95.504 mm,38.502 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 2.328 mm
+ErrType(37): Track inside a keepout area
+    @ (95.130 mm,41.204 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 1.150 mm
+ErrType(37): Track inside a keepout area
+    @ (95.504 mm,40.830 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 0.529 mm
+ErrType(37): Track inside a keepout area
+    @ (105.830 mm,31.570 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 9.740 mm
+ErrType(37): Track inside a keepout area
+    @ (102.400 mm,35.000 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 4.851 mm
+ErrType(37): Track inside a keepout area
+    @ (97.028 mm,55.880 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 2.874 mm
+ErrType(37): Track inside a keepout area
+    @ (99.568 mm,55.880 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 2.540 mm
+ErrType(37): Track inside a keepout area
+    @ (119.380 mm,53.850 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 6.512 mm
+ErrType(37): Track inside a keepout area
+    @ (119.380 mm,58.166 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 4.316 mm
+ErrType(37): Track inside a keepout area
+    @ (118.110 mm,59.436 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 1.796 mm
+ErrType(37): Track inside a keepout area
+    @ (115.200 mm,59.436 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 2.910 mm
+ErrType(37): Track inside a keepout area
+    @ (114.692 mm,59.944 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 0.718 mm
+ErrType(37): Track inside a keepout area
+    @ (113.792 mm,59.944 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 0.900 mm
+ErrType(37): Track inside a keepout area
+    @ (113.792 mm,59.944 mm): Track 3.000 mm, net [/VBB3] (4) on layer B.Cu, length: 2.032 mm
+ErrType(37): Track inside a keepout area
+    @ (113.792 mm,59.944 mm): Track 3.000 mm, net [/VBB3] (4) on layer B.Cu, length: 2.032 mm
+ErrType(37): Track inside a keepout area
+    @ (113.750 mm,48.220 mm): Track 5.000 mm, net [/VBB3] (4) on layer B.Cu, length: 1.450 mm
+ErrType(37): Track inside a keepout area
+    @ (102.400 mm,35.000 mm): Track 6.000 mm, net [/VBB3] (4) on layer B.Cu, length: 1.900 mm
+ErrType(37): Track inside a keepout area
+    @ (114.775 mm,49.245 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 1.450 mm
+ErrType(37): Track inside a keepout area
+    @ (113.750 mm,48.220 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 1.450 mm
+ErrType(37): Track inside a keepout area
+    @ (99.568 mm,54.530 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 1.350 mm
+ErrType(37): Track inside a keepout area
+    @ (103.928 mm,50.170 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 6.166 mm
+ErrType(37): Track inside a keepout area
+    @ (111.800 mm,50.170 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 7.872 mm
+ErrType(37): Track inside a keepout area
+    @ (112.725 mm,49.245 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 1.308 mm
+ErrType(37): Track inside a keepout area
+    @ (100.500 mm,35.000 mm): Track 0.350 mm, net [/VBB3] (4) on layer B.Cu, length: 1.900 mm
+ErrType(37): Track inside a keepout area
+    @ (33.020 mm,43.180 mm): Track 2.500 mm, net [Net-(D1-Pad1)] (12) on layer B.Cu, length: 0.511 mm
+ErrType(37): Track inside a keepout area
+    @ (33.531 mm,43.180 mm): Track 2.500 mm, net [Net-(D1-Pad1)] (12) on layer B.Cu, length: 4.306 mm
+ErrType(37): Track inside a keepout area
+    @ (36.576 mm,40.135 mm): Track 2.500 mm, net [Net-(D1-Pad1)] (12) on layer B.Cu, length: 0.325 mm
+ErrType(37): Track inside a keepout area
+    @ (36.576 mm,39.810 mm): Track 2.500 mm, net [Net-(D1-Pad1)] (12) on layer B.Cu, length: 4.250 mm
+ErrType(37): Track inside a keepout area
+    @ (36.576 mm,29.426 mm): Track 2.500 mm, net [Net-(D1-Pad1)] (12) on layer B.Cu, length: 6.134 mm
+ErrType(37): Track inside a keepout area
+    @ (37.502 mm,28.500 mm): Track 2.500 mm, net [Net-(D1-Pad1)] (12) on layer B.Cu, length: 1.310 mm
+ErrType(37): Track inside a keepout area
+    @ (78.740 mm,40.640 mm): Track 2.000 mm, net [Net-(D11-Pad2)] (14) on layer B.Cu, length: 3.281 mm
+ErrType(37): Track inside a keepout area
+    @ (76.420 mm,42.960 mm): Track 2.000 mm, net [Net-(D11-Pad2)] (14) on layer B.Cu, length: 3.138 mm
+ErrType(37): Track inside a keepout area
+    @ (73.282 mm,42.960 mm): Track 2.000 mm, net [Net-(D11-Pad2)] (14) on layer B.Cu, length: 4.494 mm
+ErrType(37): Track inside a keepout area
+    @ (70.104 mm,39.782 mm): Track 2.000 mm, net [Net-(D11-Pad2)] (14) on layer B.Cu, length: 0.472 mm
+ErrType(37): Track inside a keepout area
+    @ (70.104 mm,39.310 mm): Track 2.000 mm, net [Net-(D11-Pad2)] (14) on layer B.Cu, length: 3.750 mm
+ErrType(37): Track inside a keepout area
+    @ (70.104 mm,29.398 mm): Track 2.500 mm, net [Net-(D11-Pad2)] (14) on layer B.Cu, length: 6.162 mm
+ErrType(37): Track inside a keepout area
+    @ (71.002 mm,28.500 mm): Track 2.500 mm, net [Net-(D11-Pad2)] (14) on layer B.Cu, length: 1.270 mm
+ErrType(37): Track inside a keepout area
+    @ (113.750 mm,43.220 mm): Track 2.500 mm, net [Net-(D12-Pad2)] (16) on layer B.Cu, length: 1.450 mm
+ErrType(37): Track inside a keepout area
+    @ (109.000 mm,45.212 mm): Track 2.500 mm, net [Net-(D12-Pad2)] (16) on layer B.Cu, length: 4.352 mm
+ErrType(37): Track inside a keepout area
+    @ (110.992 mm,43.220 mm): Track 2.500 mm, net [Net-(D12-Pad2)] (16) on layer B.Cu, length: 2.817 mm
+ErrType(37): Track inside a keepout area
+    @ (112.300 mm,43.220 mm): Track 2.500 mm, net [Net-(D12-Pad2)] (16) on layer B.Cu, length: 1.308 mm
+ErrType(37): Track inside a keepout area
+    @ (100.982 mm,80.772 mm): Track 1.750 mm, net [Net-(D4-Pad2)] (18) on layer B.Cu, length: 1.414 mm
+ErrType(37): Track inside a keepout area
+    @ (103.014 mm,78.740 mm): Track 1.750 mm, net [Net-(D4-Pad2)] (18) on layer B.Cu, length: 2.874 mm
+ErrType(37): Track inside a keepout area
+    @ (104.648 mm,78.740 mm): Track 1.750 mm, net [Net-(D4-Pad2)] (18) on layer B.Cu, length: 1.634 mm
+ErrType(37): Track inside a keepout area
+    @ (100.982 mm,69.088 mm): Track 1.750 mm, net [Net-(D5-Pad2)] (19) on layer B.Cu, length: 1.414 mm
+ErrType(37): Track inside a keepout area
+    @ (102.506 mm,67.564 mm): Track 1.750 mm, net [Net-(D5-Pad2)] (19) on layer B.Cu, length: 2.155 mm
+ErrType(37): Track inside a keepout area
+    @ (104.648 mm,67.564 mm): Track 1.750 mm, net [Net-(D5-Pad2)] (19) on layer B.Cu, length: 2.142 mm
+ErrType(37): Track inside a keepout area
+    @ (100.982 mm,58.420 mm): Track 1.750 mm, net [Net-(D6-Pad2)] (20) on layer B.Cu, length: 1.414 mm
+ErrType(37): Track inside a keepout area
+    @ (103.014 mm,56.388 mm): Track 1.750 mm, net [Net-(D6-Pad2)] (20) on layer B.Cu, length: 2.874 mm
+ErrType(37): Track inside a keepout area
+    @ (104.648 mm,56.388 mm): Track 1.750 mm, net [Net-(D6-Pad2)] (20) on layer B.Cu, length: 1.634 mm
+
+** Found 0 unconnected pads **
+
+** End of Report **

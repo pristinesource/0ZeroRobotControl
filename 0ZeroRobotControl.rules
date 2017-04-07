@@ -1,0 +1,694 @@
+
+(rules PCB PiPrinter
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 30)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 5712)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.8)
+    )
+    (layer_rule In1.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule In2.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 250.2 (type default_Motor))
+    (clear 50.0 (type smd_smd))
+    (clear 250.2 (type smd_Motor))
+    (clear 250.2 (type "kicad_default"_Motor))
+    (clear 250.2 (type GND_Motor))
+    (clear 250.2 (type "GND_EXT"_Motor))
+    (clear 250.2 (type "GND_Small"_Motor))
+    (clear 250.2 (type MOSFETDRIVE_Motor))
+    (clear 250.2 (type Motor_Motor))
+    (clear 250.2 (type Motor_"PWR_EXT"))
+    (clear 250.2 (type Motor_"PWR_Pi"))
+    (clear 250.2 (type Motor_"PWR_Reg"))
+    (clear 250.2 (type Motor_"Power_ext2"))
+    (clear 250.2 (type Motor_"slightly bigger"))
+  )
+  (padstack "Via[0-3]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_2500:1500_um"
+    (shape
+      (circle F.Cu 2500.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 2500.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 2500.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 2500.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_6000:5000_um"
+    (shape
+      (circle F.Cu 6000.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 6000.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 6000.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 6000.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_1250:1000_um"
+    (shape
+      (circle F.Cu 1250.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 1250.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 1250.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1250.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_1750:1250_um"
+    (shape
+      (circle F.Cu 1750.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 1750.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 1750.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1750.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_750:500_um"
+    (shape
+      (circle F.Cu 750.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 750.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 750.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 750.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_700:500_um"
+    (shape
+      (circle F.Cu 700.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 700.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 700.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 700.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_1000:750_um"
+    (shape
+      (circle F.Cu 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1000.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_400:300_um"
+    (shape
+      (circle F.Cu 400.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 400.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 400.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 400.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:400_um" "Via[0-3]_600:400_um" default
+  )
+  (via 
+    "Via[0-3]_2500:1500_um" "Via[0-3]_2500:1500_um" default
+  )
+  (via 
+    "Via[0-3]_6000:5000_um" "Via[0-3]_6000:5000_um" default
+  )
+  (via 
+    "Via[0-3]_1250:1000_um" "Via[0-3]_1250:1000_um" default
+  )
+  (via 
+    "Via[0-3]_1750:1250_um" "Via[0-3]_1750:1250_um" default
+  )
+  (via 
+    "Via[0-3]_750:500_um" "Via[0-3]_750:500_um" default
+  )
+  (via 
+    "Via[0-3]_700:500_um" "Via[0-3]_700:500_um" default
+  )
+  (via 
+    "Via[0-3]_1000:750_um" "Via[0-3]_1000:750_um" default
+  )
+  (via 
+    "Via[0-3]_400:300_um" "Via[0-3]_400:300_um" default
+  )
+  (via 
+    "Via[0-3]_600:400_um-kicad_default" "Via[0-3]_600:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_2500:1500_um-kicad_default" "Via[0-3]_2500:1500_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_6000:5000_um-kicad_default" "Via[0-3]_6000:5000_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_1250:1000_um-kicad_default" "Via[0-3]_1250:1000_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_1750:1250_um-kicad_default" "Via[0-3]_1750:1250_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_750:500_um-kicad_default" "Via[0-3]_750:500_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_700:500_um-kicad_default" "Via[0-3]_700:500_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_1000:750_um-kicad_default" "Via[0-3]_1000:750_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_400:300_um-kicad_default" "Via[0-3]_400:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_600:400_um-GND" "Via[0-3]_600:400_um" GND
+  )
+  (via 
+    "Via[0-3]_2500:1500_um-GND" "Via[0-3]_2500:1500_um" GND
+  )
+  (via 
+    "Via[0-3]_6000:5000_um-GND" "Via[0-3]_6000:5000_um" GND
+  )
+  (via 
+    "Via[0-3]_1250:1000_um-GND" "Via[0-3]_1250:1000_um" GND
+  )
+  (via 
+    "Via[0-3]_1750:1250_um-GND" "Via[0-3]_1750:1250_um" GND
+  )
+  (via 
+    "Via[0-3]_750:500_um-GND" "Via[0-3]_750:500_um" GND
+  )
+  (via 
+    "Via[0-3]_700:500_um-GND" "Via[0-3]_700:500_um" GND
+  )
+  (via 
+    "Via[0-3]_1000:750_um-GND" "Via[0-3]_1000:750_um" GND
+  )
+  (via 
+    "Via[0-3]_400:300_um-GND" "Via[0-3]_400:300_um" GND
+  )
+  (via 
+    "Via[0-3]_600:400_um-GND_EXT" "Via[0-3]_600:400_um" "GND_EXT"
+  )
+  (via 
+    "Via[0-3]_2500:1500_um-GND_EXT" "Via[0-3]_2500:1500_um" "GND_EXT"
+  )
+  (via 
+    "Via[0-3]_6000:5000_um-GND_EXT" "Via[0-3]_6000:5000_um" "GND_EXT"
+  )
+  (via 
+    "Via[0-3]_1250:1000_um-GND_EXT" "Via[0-3]_1250:1000_um" "GND_EXT"
+  )
+  (via 
+    "Via[0-3]_1750:1250_um-GND_EXT" "Via[0-3]_1750:1250_um" "GND_EXT"
+  )
+  (via 
+    "Via[0-3]_750:500_um-GND_EXT" "Via[0-3]_750:500_um" "GND_EXT"
+  )
+  (via 
+    "Via[0-3]_700:500_um-GND_EXT" "Via[0-3]_700:500_um" "GND_EXT"
+  )
+  (via 
+    "Via[0-3]_1000:750_um-GND_EXT" "Via[0-3]_1000:750_um" "GND_EXT"
+  )
+  (via 
+    "Via[0-3]_400:300_um-GND_EXT" "Via[0-3]_400:300_um" "GND_EXT"
+  )
+  (via 
+    "Via[0-3]_600:400_um-GND_Small" "Via[0-3]_600:400_um" "GND_Small"
+  )
+  (via 
+    "Via[0-3]_2500:1500_um-GND_Small" "Via[0-3]_2500:1500_um" "GND_Small"
+  )
+  (via 
+    "Via[0-3]_6000:5000_um-GND_Small" "Via[0-3]_6000:5000_um" "GND_Small"
+  )
+  (via 
+    "Via[0-3]_1250:1000_um-GND_Small" "Via[0-3]_1250:1000_um" "GND_Small"
+  )
+  (via 
+    "Via[0-3]_1750:1250_um-GND_Small" "Via[0-3]_1750:1250_um" "GND_Small"
+  )
+  (via 
+    "Via[0-3]_750:500_um-GND_Small" "Via[0-3]_750:500_um" "GND_Small"
+  )
+  (via 
+    "Via[0-3]_700:500_um-GND_Small" "Via[0-3]_700:500_um" "GND_Small"
+  )
+  (via 
+    "Via[0-3]_1000:750_um-GND_Small" "Via[0-3]_1000:750_um" "GND_Small"
+  )
+  (via 
+    "Via[0-3]_400:300_um-GND_Small" "Via[0-3]_400:300_um" "GND_Small"
+  )
+  (via 
+    "Via[0-3]_600:400_um-MOSFETDRIVE" "Via[0-3]_600:400_um" MOSFETDRIVE
+  )
+  (via 
+    "Via[0-3]_2500:1500_um-MOSFETDRIVE" "Via[0-3]_2500:1500_um" MOSFETDRIVE
+  )
+  (via 
+    "Via[0-3]_6000:5000_um-MOSFETDRIVE" "Via[0-3]_6000:5000_um" MOSFETDRIVE
+  )
+  (via 
+    "Via[0-3]_1250:1000_um-MOSFETDRIVE" "Via[0-3]_1250:1000_um" MOSFETDRIVE
+  )
+  (via 
+    "Via[0-3]_1750:1250_um-MOSFETDRIVE" "Via[0-3]_1750:1250_um" MOSFETDRIVE
+  )
+  (via 
+    "Via[0-3]_750:500_um-MOSFETDRIVE" "Via[0-3]_750:500_um" MOSFETDRIVE
+  )
+  (via 
+    "Via[0-3]_700:500_um-MOSFETDRIVE" "Via[0-3]_700:500_um" MOSFETDRIVE
+  )
+  (via 
+    "Via[0-3]_1000:750_um-MOSFETDRIVE" "Via[0-3]_1000:750_um" MOSFETDRIVE
+  )
+  (via 
+    "Via[0-3]_400:300_um-MOSFETDRIVE" "Via[0-3]_400:300_um" MOSFETDRIVE
+  )
+  (via 
+    "Via[0-3]_600:400_um-Motor" "Via[0-3]_600:400_um" Motor
+  )
+  (via 
+    "Via[0-3]_2500:1500_um-Motor" "Via[0-3]_2500:1500_um" Motor
+  )
+  (via 
+    "Via[0-3]_6000:5000_um-Motor" "Via[0-3]_6000:5000_um" Motor
+  )
+  (via 
+    "Via[0-3]_1250:1000_um-Motor" "Via[0-3]_1250:1000_um" Motor
+  )
+  (via 
+    "Via[0-3]_1750:1250_um-Motor" "Via[0-3]_1750:1250_um" Motor
+  )
+  (via 
+    "Via[0-3]_750:500_um-Motor" "Via[0-3]_750:500_um" Motor
+  )
+  (via 
+    "Via[0-3]_700:500_um-Motor" "Via[0-3]_700:500_um" Motor
+  )
+  (via 
+    "Via[0-3]_1000:750_um-Motor" "Via[0-3]_1000:750_um" Motor
+  )
+  (via 
+    "Via[0-3]_400:300_um-Motor" "Via[0-3]_400:300_um" Motor
+  )
+  (via 
+    "Via[0-3]_600:400_um-PWR_EXT" "Via[0-3]_600:400_um" "PWR_EXT"
+  )
+  (via 
+    "Via[0-3]_2500:1500_um-PWR_EXT" "Via[0-3]_2500:1500_um" "PWR_EXT"
+  )
+  (via 
+    "Via[0-3]_6000:5000_um-PWR_EXT" "Via[0-3]_6000:5000_um" "PWR_EXT"
+  )
+  (via 
+    "Via[0-3]_1250:1000_um-PWR_EXT" "Via[0-3]_1250:1000_um" "PWR_EXT"
+  )
+  (via 
+    "Via[0-3]_1750:1250_um-PWR_EXT" "Via[0-3]_1750:1250_um" "PWR_EXT"
+  )
+  (via 
+    "Via[0-3]_750:500_um-PWR_EXT" "Via[0-3]_750:500_um" "PWR_EXT"
+  )
+  (via 
+    "Via[0-3]_700:500_um-PWR_EXT" "Via[0-3]_700:500_um" "PWR_EXT"
+  )
+  (via 
+    "Via[0-3]_1000:750_um-PWR_EXT" "Via[0-3]_1000:750_um" "PWR_EXT"
+  )
+  (via 
+    "Via[0-3]_400:300_um-PWR_EXT" "Via[0-3]_400:300_um" "PWR_EXT"
+  )
+  (via 
+    "Via[0-3]_600:400_um-PWR_Pi" "Via[0-3]_600:400_um" "PWR_Pi"
+  )
+  (via 
+    "Via[0-3]_2500:1500_um-PWR_Pi" "Via[0-3]_2500:1500_um" "PWR_Pi"
+  )
+  (via 
+    "Via[0-3]_6000:5000_um-PWR_Pi" "Via[0-3]_6000:5000_um" "PWR_Pi"
+  )
+  (via 
+    "Via[0-3]_1250:1000_um-PWR_Pi" "Via[0-3]_1250:1000_um" "PWR_Pi"
+  )
+  (via 
+    "Via[0-3]_1750:1250_um-PWR_Pi" "Via[0-3]_1750:1250_um" "PWR_Pi"
+  )
+  (via 
+    "Via[0-3]_750:500_um-PWR_Pi" "Via[0-3]_750:500_um" "PWR_Pi"
+  )
+  (via 
+    "Via[0-3]_700:500_um-PWR_Pi" "Via[0-3]_700:500_um" "PWR_Pi"
+  )
+  (via 
+    "Via[0-3]_1000:750_um-PWR_Pi" "Via[0-3]_1000:750_um" "PWR_Pi"
+  )
+  (via 
+    "Via[0-3]_400:300_um-PWR_Pi" "Via[0-3]_400:300_um" "PWR_Pi"
+  )
+  (via 
+    "Via[0-3]_600:400_um-PWR_Reg" "Via[0-3]_600:400_um" "PWR_Reg"
+  )
+  (via 
+    "Via[0-3]_2500:1500_um-PWR_Reg" "Via[0-3]_2500:1500_um" "PWR_Reg"
+  )
+  (via 
+    "Via[0-3]_6000:5000_um-PWR_Reg" "Via[0-3]_6000:5000_um" "PWR_Reg"
+  )
+  (via 
+    "Via[0-3]_1250:1000_um-PWR_Reg" "Via[0-3]_1250:1000_um" "PWR_Reg"
+  )
+  (via 
+    "Via[0-3]_1750:1250_um-PWR_Reg" "Via[0-3]_1750:1250_um" "PWR_Reg"
+  )
+  (via 
+    "Via[0-3]_750:500_um-PWR_Reg" "Via[0-3]_750:500_um" "PWR_Reg"
+  )
+  (via 
+    "Via[0-3]_700:500_um-PWR_Reg" "Via[0-3]_700:500_um" "PWR_Reg"
+  )
+  (via 
+    "Via[0-3]_1000:750_um-PWR_Reg" "Via[0-3]_1000:750_um" "PWR_Reg"
+  )
+  (via 
+    "Via[0-3]_400:300_um-PWR_Reg" "Via[0-3]_400:300_um" "PWR_Reg"
+  )
+  (via 
+    "Via[0-3]_600:400_um-Power_ext2" "Via[0-3]_600:400_um" "Power_ext2"
+  )
+  (via 
+    "Via[0-3]_2500:1500_um-Power_ext2" "Via[0-3]_2500:1500_um" "Power_ext2"
+  )
+  (via 
+    "Via[0-3]_6000:5000_um-Power_ext2" "Via[0-3]_6000:5000_um" "Power_ext2"
+  )
+  (via 
+    "Via[0-3]_1250:1000_um-Power_ext2" "Via[0-3]_1250:1000_um" "Power_ext2"
+  )
+  (via 
+    "Via[0-3]_1750:1250_um-Power_ext2" "Via[0-3]_1750:1250_um" "Power_ext2"
+  )
+  (via 
+    "Via[0-3]_750:500_um-Power_ext2" "Via[0-3]_750:500_um" "Power_ext2"
+  )
+  (via 
+    "Via[0-3]_700:500_um-Power_ext2" "Via[0-3]_700:500_um" "Power_ext2"
+  )
+  (via 
+    "Via[0-3]_1000:750_um-Power_ext2" "Via[0-3]_1000:750_um" "Power_ext2"
+  )
+  (via 
+    "Via[0-3]_400:300_um-Power_ext2" "Via[0-3]_400:300_um" "Power_ext2"
+  )
+  (via 
+    "Via[0-3]_600:400_um-slightly bigger" "Via[0-3]_600:400_um" "slightly bigger"
+  )
+  (via 
+    "Via[0-3]_2500:1500_um-slightly bigger" "Via[0-3]_2500:1500_um" "slightly bigger"
+  )
+  (via 
+    "Via[0-3]_6000:5000_um-slightly bigger" "Via[0-3]_6000:5000_um" "slightly bigger"
+  )
+  (via 
+    "Via[0-3]_1250:1000_um-slightly bigger" "Via[0-3]_1250:1000_um" "slightly bigger"
+  )
+  (via 
+    "Via[0-3]_1750:1250_um-slightly bigger" "Via[0-3]_1750:1250_um" "slightly bigger"
+  )
+  (via 
+    "Via[0-3]_750:500_um-slightly bigger" "Via[0-3]_750:500_um" "slightly bigger"
+  )
+  (via 
+    "Via[0-3]_700:500_um-slightly bigger" "Via[0-3]_700:500_um" "slightly bigger"
+  )
+  (via 
+    "Via[0-3]_1000:750_um-slightly bigger" "Via[0-3]_1000:750_um" "slightly bigger"
+  )
+  (via 
+    "Via[0-3]_400:300_um-slightly bigger" "Via[0-3]_400:300_um" "slightly bigger"
+  )
+  (via_rule
+    default "Via[0-3]_400:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_600:400_um-kicad_default"
+  )
+  (via_rule
+    GND "Via[0-3]_2500:1500_um-GND"
+  )
+  (via_rule
+    "GND_EXT" "Via[0-3]_6000:5000_um-GND_EXT"
+  )
+  (via_rule
+    "GND_Small" "Via[0-3]_600:400_um-GND_Small"
+  )
+  (via_rule
+    MOSFETDRIVE "Via[0-3]_1250:1000_um-MOSFETDRIVE"
+  )
+  (via_rule
+    Motor "Via[0-3]_1750:1250_um-Motor"
+  )
+  (via_rule
+    "PWR_EXT" "Via[0-3]_6000:5000_um-PWR_EXT"
+  )
+  (via_rule
+    "PWR_Pi" "Via[0-3]_750:500_um-PWR_Pi"
+  )
+  (via_rule
+    "PWR_Reg" "Via[0-3]_700:500_um-PWR_Reg"
+  )
+  (via_rule
+    "Power_ext2" "Via[0-3]_1000:750_um-Power_ext2"
+  )
+  (via_rule
+    "slightly bigger" "Via[0-3]_750:500_um-slightly bigger"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(D12-Pad2)" "Net-(D1-Pad1)" "Net-(D11-Pad2)" /TH0 /TH1 /TH2 /TH3 "Net-(D1-Pad2)"
+    "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D9-Pad2)" "/Pi_GPIO18" "/Pi_GPIO23" "/Pi_GPIO24"
+    "/Pi_GPIO25" "/Pi_GPIO2" "/Pi_GPIO3" "/Pi_GPIO4" "/Pi_GPIO17" "/Pi_GPIO27" "/Pi_GPIO22" "/Pi_GPIO10"
+    "/Pi_GPIO9" "/Pi_GPIO11" "/Pi_GPIO8" "/Pi_GPIO7" "/Pi_GPIO5" "/Pi_GPIO6" "/Pi_GPIO12" "/Pi_GPIO13"
+    "/Pi_GPIO19" "/Pi_GPIO16" "/Pi_GPIO26" "/Pi_GPIO20" "/Pi_GPIO21" "Net-(C16-Pad2)" /SW1 /SW2
+    /SW3 "Net-(C24-Pad2)" /SW4 /SW5 /SW6 "/Steppers/ADC_VChk" /Steppers/SSCLK "Net-(IC5-Pad3)"
+    "Net-(IC5-Pad4)" "Net-(IC5-Pad24)" "Net-(IC6-Pad3)" "Net-(IC6-Pad4)" "Net-(IC6-Pad24)" "Net-(IC7-Pad3)" "Net-(IC7-Pad4)" "Net-(IC7-Pad24)"
+    "Net-(IC8-Pad3)" "Net-(IC8-Pad4)" "Net-(IC8-Pad24)" "Net-(IC9-Pad3)" "Net-(IC9-Pad4)" "Net-(IC9-Pad24)" "Net-(IC10-Pad3)" "Net-(IC10-Pad4)"
+    "Net-(IC10-Pad24)" /Steppers/SDIO1 /Steppers/SDIO2 /Steppers/SDIO3 /Steppers/SDIO4 /Steppers/SDIO5 /Steppers/CP1 "Net-(C18-Pad1)"
+    /Steppers/CP0 "/Steppers/ADC_VChk2" "/Steppers/ADC_VChk3"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class GND
+    (clearance_class GND)
+    (via_rule GND)
+    (rule
+      (width 2000.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "GND_EXT"
+    (clearance_class "GND_EXT")
+    (via_rule GND_EXT)
+    (rule
+      (width 6000.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "GND_Small"
+    GND /VBB3 /VBB1
+    (clearance_class "GND_Small")
+    (via_rule GND_Small)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class MOSFETDRIVE
+    (clearance_class MOSFETDRIVE)
+    (via_rule MOSFETDRIVE)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class Motor
+    "/Steppers/M1-1" "/Steppers/M1-2" "/Steppers/M1-4" "/Steppers/M1-3" "/Steppers/M3-1" "/Steppers/M3-3" "/Steppers/M3-4" "/Steppers/M5-1"
+    "/Steppers/M5-2" "/Steppers/M5-3" "/Steppers/M5-4" "/Steppers/M2-1" "/Steppers/M2-2" "/Steppers/M2-3" "/Steppers/M2-4" "/Steppers/M4-1"
+    "/Steppers/M4-2" "/Steppers/M4-3" "/Steppers/M4-4" "/Steppers/M6-1" "/Steppers/M6-2" "/Steppers/M6-3" "/Steppers/M6-4" "/Steppers/M3-2"
+    (clearance_class Motor)
+    (via_rule Motor)
+    (rule
+      (width 1500.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "PWR_EXT"
+    /VBB2
+    (clearance_class "PWR_EXT")
+    (via_rule PWR_EXT)
+    (rule
+      (width 2500.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "PWR_Pi"
+    +3V3 +5V
+    (clearance_class "PWR_Pi")
+    (via_rule PWR_Pi)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "PWR_Reg"
+    /3.3VR /5VR
+    (clearance_class "PWR_Reg")
+    (via_rule PWR_Reg)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "Power_ext2"
+    "Net-(D4-Pad2)" "Net-(D5-Pad2)" "Net-(D6-Pad2)"
+    (clearance_class "Power_ext2")
+    (via_rule Power_ext2)
+    (rule
+      (width 1750.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "slightly bigger"
+    "Net-(C4-Pad1)" "Net-(C5-Pad1)" "Net-(C6-Pad1)" "Net-(IC1-Pad5)" "Net-(IC1-Pad7)" "Net-(IC2-Pad5)" "Net-(IC2-Pad7)" "Net-(IC3-Pad5)"
+    "Net-(IC3-Pad7)" "/MOSFET_DRIVE_1" "/MOSFET_DRIVE_3" "/MOSFET_DRIVE_5" "/MOSFET_DRIVE_2" "/MOSFET_DRIVE_4" "/MOSFET_DRIVE_6"
+    (clearance_class "slightly bigger")
+    (via_rule slightly bigger)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)

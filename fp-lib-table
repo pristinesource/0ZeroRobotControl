@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name PiPrinter)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+  (lib (name CustomTO220)(type KiCad)(uri "$(KIPRJMOD)\\CustomTO220.pretty")(options "")(descr ""))
+)
